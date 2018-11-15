@@ -1,0 +1,65 @@
+footer{
+    background-color: rgba(238,233,191,0.5);
+    margin-bottom: 0;
+}
+
+/* 背景图片 */
+.background-image{
+    background:url("../../image/loginbg/1.jpg") no-repeat center fixed;
+    background-size:cover;
+}
+/*.login-panel{*/
+    /*!*background-color: rgba(255,255,255,0.4);*!*/
+    /*margin-top:35%;*/
+/*}*/
+
+.vertical-center{
+    margin-top:20%;
+}
+/* 走你按钮 */
+.go-btn{
+    color:white;
+    background-color: rgba(255,106,106,0.7);
+    border:1px solid rgba(255,106,106,1);
+    box-shadow: 0 0 3px 4px rgba(255,106,106,0.5);
+}
+
+.go-btn:hover{
+    background-color: rgba(255,106,106,1);
+    border:1px solid rgba(255,106,106,1);
+    box-shadow: 0 0 6px 7px rgba(255,106,106,0.5);
+}
+/* 名字输入框 */
+.go-input{
+    background-color: rgba(255,255,255,0.8);
+    border:1px solid rgba(255,255,255,1);
+    box-shadow: 0 0 3px 4px rgba(255,255,255,0.5);
+    padding-left: 1em;
+}
+
+.go-input:focus{
+    background-color: rgba(255,255,255,0.8);
+    border:1px solid rgba(255,255,255,1);
+    box-shadow: 0 0 6px 7px rgba(255,255,255,0.5);
+}
+
+/*控制音乐播放*/
+.control-audio-btn{
+    background-color: rgba(144,238,144,0.8);
+    border:1px solid rgba(144,238,144,1);
+    box-shadow: 0 0 3px 4px rgba(144,238,144,0.5);
+    padding-left: 1em;
+}
+.control-audio-btn:hover{
+    background-color: rgba(144,238,144,1);
+    border:1px solid rgba(144,238,144,1);
+    box-shadow: 0 0 6px 7px rgba(144,238,144,0.5);
+}
+/* 播放/暂停按钮样式 */
+#audio-icon{
+    color:rgba(54,54,54,1)
+}
+
+.login-row{
+    height: 100vh;
+}

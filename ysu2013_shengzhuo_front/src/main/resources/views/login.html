@@ -1,0 +1,79 @@
+<!--
+    @author  AaronJiang
+    @date    2018/04/26
+    @mail    1327994105@qq.com
+    @description login
+    @version 1.0
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <meta name="keywords" content="ysu,YSU,2013,生物工程,卓越计划,姜昌雄">
+        <meta name="description" content="2013级燕山大学生物工程卓越计划的小崽子们">
+        <meta name="revised" content="AaronJiang,2018/05/02">
+        <meta name="author" content="AaronJiang">
+        <title>2013生卓</title>
+        <link rel="stylesheet" th:href="@{/static/bootstrap/css/bootstrap.min.css}"/>
+        <link rel="stylesheet" th:href="@{/static/common/css/login.css}"/>
+        <link rel="stylesheet" th:href="@{/static/iconfonts/iconfont.css}"/>
+    </head>
+    <body class="background-image">
+        <!-- 背景音乐 -->
+
+        <audio th:src="@{/static/music/彩虹.mp3}" id="bg-audio" class="" autoplay="true" loop="loop"></audio>
+
+        <!-- 登录模块 -->
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center login-row">
+                <div class="col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-xs-10 offset-xs-1 m-auto text-center">
+                    <form class="form">
+                        <div class="row">
+                            <!--<div class="col-12">Welcome to home!我的生卓!</div>-->
+                            <div class="col">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <button class="btn control-audio-btn" type="button" style="border-bottom-left-radius: 1.2em;border-top-left-radius: 1.2em;">
+                                                <span id="audio-icon" class="iconfont icon-zanting" style="font-size: 1em"></span>
+                                            </button>
+                                        </div>
+                                        <!--style="border-bottom-left-radius: 1.2em;border-top-left-radius: 1.2em;"-->
+                                        <input type="text" name="username" class="form-control text-center go-input" placeholder="时光胶囊" required autocomplete="false" />
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline go-btn" type="button" style="border-bottom-right-radius: 1.2em;border-top-right-radius: 1.2em;">走你</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- 尾部说明 -->
+        <!--<nav class="navbar navbar-dark navbar-fixed-bottom" role="navigation">-->
+        <!--<div class="container-fluid">-->
+        <!--<div class="row text-center">-->
+        <!--<div class="text-center">Design By <span>AaronJiang</span></div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</nav>-->
+        <script th:src="@{/static/jquery/jquery.min.js}"></script>
+        <!-- 1.14.3 -->
+        <script th:src="@{/static/common/js/popper.min.js}"></script>
+        <!-- 4.0 -->
+        <script th:src="@{/static/bootstrap/js/bootstrap.min.js}"></script>
+
+        <script th:src="@{/static/common/js/login.js}"></script>
+
+        <script th:src="@{/static/iconfonts/iconfont.js}"></script>
+
+        <script th:src="@{/static/sweetalert/sweetalert.min.js}"></script>
+    </body>
+    <!--<footer class="text-center">-->
+    <!--<span>Design By AaronJiang</span>-->
+    <!--</footer>-->
+</html>
